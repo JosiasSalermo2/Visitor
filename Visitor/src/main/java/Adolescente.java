@@ -1,4 +1,4 @@
-import static com.sun.tools.javac.jvm.ByteCodes.ret;
+
 
 public class Adolescente implements EntidadeSocioeducativa{
 
@@ -13,7 +13,7 @@ public class Adolescente implements EntidadeSocioeducativa{
     }
 
     public int getProntuario(){
-        return prontuario
+        return prontuario;
     }
 
     public String getNome(){
@@ -26,7 +26,7 @@ public class Adolescente implements EntidadeSocioeducativa{
     }
 
     public String aceitar (AuditoriaVisitor visitor){
-        return visitor.exibirAdolescente(this).
+        return visitor.exibirAdolescente(this);
     }
 
 }
